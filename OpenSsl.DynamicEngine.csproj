@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>System.Security.Cryptography.OpenSsl</RootNamespace>
     <PackageId>OpenSsl.DynamicEngine</PackageId>
-    <PackageIconUrl>https://github.com/andyhopp/OpenSsl.DynamicEngine/blob/master/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://github.com/andyhopp/OpenSsl.DynamicEngine/raw/master/icon.png</PackageIconUrl>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>Andy Hopper</Authors>
     <Company>Amazon Web Services</Company>
