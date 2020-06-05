@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace System.Security.Cryptography.OpenSsl
 {
-    public static class SafeNativeMethods
+    internal static class SafeNativeMethods
     {
 #if WINDOWS
         private const string OpenSslLibrary = "libssleay32.dll";
