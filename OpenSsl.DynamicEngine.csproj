@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>System.Security.Cryptography.OpenSsl</RootNamespace>
     <PackageId>OpenSsl.DynamicEngine</PackageId>
+    <Title>OpenSsl.DynamicEngine</Title>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl>https://github.com/andyhopp/OpenSsl.DynamicEngine/raw/master/icon.png</PackageIconUrl>
     <PackageVersion>1.0.0</PackageVersion>
