@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>System.Security.Cryptography.OpenSsl</RootNamespace>
+    <PackageId>OpenSsl.DynamicEngine</PackageId>
+    <PackageIconUrl>https://github.com/andyhopp/OpenSsl.DynamicEngine/blob/master/icon.png</PackageIconUrl>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Andy Hopper</Authors>
+    <Company>Amazon Web Services</Company>
+    <Tags>OpenSsl;dynamic engine;engine;HSM</Tags>
+    <PackageDescription>This package adds support for OpenSSL dynamic engines for .NET Core on non-Windows machines.</PackageDescription>
+    <ReleaseNotes>First release.</ReleaseNotes>
+    <Copyright>Copyright 2020, Amazon Web Services, Inc.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/andyhopp/OpenSsl.DynamicEngine</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
