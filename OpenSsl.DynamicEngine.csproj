@@ -22,6 +22,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="icon.png" copyToOutput="true" PackagePath="">
+      <IncludeInPackage>true</IncludeInPackage>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
